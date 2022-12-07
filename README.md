@@ -1,14 +1,90 @@
-## Getting Started
+<a name="readme-top"></a>
 
-This repository includes files with plain SQL that can be used to recreate a database:
+# 📗 Table of Contents
 
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
-**Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
+# 📖 vet_clinic <a name="about-project"></a>
 
-## Authors
+**vet_clinic** is a command line tool for managing digimons and pokemons
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+### Key Features <a name="key-features"></a>
+
+- **Manage your animals**
+- **Keep track of your vet visits**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+Live Demo not yet available
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Prerequisites
+
+In order to run this project you need:
+
+```sh
+ gem install rails
+```
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```sh
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+```sh
+  rubocop .
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Authors <a name="authors"></a>
 
 👤 **Fábio Vinícius Dias Lima**
 
@@ -16,22 +92,32 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - Twitter: [@limavfabio](https://twitter.com/limavfabio)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/limavfabio)
 
-## 🤝 Contributing
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+## ⭐️ Show your support <a name="support"></a>
 
-## Acknowledgments
+If you like this project please leave a start.
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 📝 License
+<!-- ACKNOWLEDGEMENTS -->
 
-This project is [MIT](./MIT.md) licensed.
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank every maintainer of whose code this project depends on
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
