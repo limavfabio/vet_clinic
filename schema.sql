@@ -46,3 +46,34 @@ ADD CONSTRAINT fk_animals_owners
 FOREIGN KEY (owners_id) REFERENCES owners(id);
 
 COMMIT;
+
+-- Create vets table
+
+CREATE TABLE vets
+(
+id BIGSERIAL NOT NULL PRIMARY KEY,
+name VARCHAR(100) NOT NULL,
+age SMALLINT NOT NULL,
+date_of_graduation DATE NOT NULL,
+CONSTRAINT positive_age CHECK (age > 0) NOT VALID
+);
+
+-- Create table specializations
+
+CREATE TABLE specializations
+(
+vets_id BIGINT REFERENCES vets(id),
+species_id BIGINT REFERENCES species(id),
+PRIMARY KEY (vets_id, species_id)
+);
+
+
+-- Create table visits
+
+CREATE TABLE visits
+(
+vets_id BIGINT REFERENCES vets(id),
+animals_id BIGINT REFERENCES animals(id),
+date_of_visit DATE NOT NULL,
+PRIMARY KEY (vets_id, animals_id, date_of_visit)
+);
